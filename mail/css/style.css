@@ -7,4 +7,33 @@
 
 body {
   background-color: lightgreen;
+  font-size: 1.5rem;
+}
+
+.top {
+  margin: 2em auto;
+  margin-bottom: 1em;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  flex-direction: column;
+}
+
+.top input {
+  font-size: 1rem;
+  border-radius: 1em;
+  padding: 0.5em;
+}
+
+.bottom {
+  text-align: center;
+}
+
+.bottom button {
+  font-size: 1rem;
+  padding: 0.5em;
+  border-radius: 1em;
+  background-color: lightseagreen;
+  color: white;
 }
