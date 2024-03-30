@@ -21,3 +21,11 @@ Per questo esercizio probabilmente vi servirà l'array di giorni di settimana, l
 - Creo una lista di nominativi/indirizzi email
 - Verifico ogni indirizzo della lista per vedere se c'è quello inserito dall'utente
 - Stampo il risultato sull'esito del controllo
+
+### Svolgimento DADI
+
+- Creo le variabili per giocatore e computer
+- Al click del pulsante avvio l'esecuzione
+- Genero un numero random per entrambi
+- Confronto i due numeri per stabilire chi è il vincitore
+- Stampo il risultato
