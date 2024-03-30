@@ -41,6 +41,7 @@ body {
   border-radius: 1em;
   background-color: lightgoldenrodyellow;
   color: #000;
+  cursor: pointer;
 }
 
 .dice {
@@ -53,4 +54,12 @@ body {
 .dice i {
   padding-top: 0.2em;
   font-size: 7rem;
+}
+
+.display {
+  display: inline-block;
+}
+
+.hidden {
+  display: none;
 }

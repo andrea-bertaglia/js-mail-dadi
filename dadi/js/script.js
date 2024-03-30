@@ -8,6 +8,8 @@ let result;
 const userElem = document.querySelector(".user"); // object | null
 const pcElem = document.querySelector(".pc"); // object | null
 const resultElem = document.querySelector(".result"); // object | null
+const playButton = document.querySelector(".display");
+const refreshButton = document.querySelector(".hidden");
 
 // 2. Avvio la rilevazione del click
 const checkButton = document.getElementById("gioca");
@@ -27,6 +29,7 @@ checkButton.addEventListener("click", function() {
     } else {
         result = "Hai Perso!";
     }
+    console.log(result);
     // Creo gli elementi in pagina: verifico quale classe applicare all'utente in base al numero random
     if (userNum === 1) {
         faUserElem = "fa-dice-one";
@@ -65,7 +68,6 @@ checkButton.addEventListener("click", function() {
 
     // Aggiungo i valori negli elementi
     textUserElem.innerHTML = "Il tuo numero";
-    console.log(textUserElem);
     iUserElem.classList.add("fa-solid");
     iUserElem.classList.add(`${faUserElem}`);
     textPcElem.innerHTML = "Il numero del PC";
@@ -78,6 +80,12 @@ checkButton.addEventListener("click", function() {
     pcElem.append(textPcElem);
     pcElem.append(iPcElem);
     resultElem.innerHTML = result;
+
+    // Gestisco i pulsanti
+    playButton.classList.remove("display");
+    playButton.classList.add("hidden");
+    refreshButton.classList.remove("hidden");
+    refreshButton.classList.add("display");
 })
 
 
