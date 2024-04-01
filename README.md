@@ -29,3 +29,10 @@ Per questo esercizio probabilmente vi servirà l'array di giorni di settimana, l
 - Genero un numero random per entrambi
 - Confronto i due numeri per stabilire chi è il vincitore
 - Stampo il risultato
+
+### Svolgimento BONUS
+
+- Dichiaro le variabili (array giorni della settimana, array giorni festivi) e le variabili di appoggio
+- Creo più cicli for di 7gg in cui inserisco la condizione per cercare i giorni festivi
+- Aggiungo gli elementi e il contenuto
+- Stampo il risultato in pagina
