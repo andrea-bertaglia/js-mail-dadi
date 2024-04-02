@@ -1,3 +1,5 @@
+"use strict";
+
 // Test
 console.log("Hello World!");
 
@@ -8,8 +10,10 @@ let result;
 const userElem = document.querySelector(".user"); // object | null
 const pcElem = document.querySelector(".pc"); // object | null
 const resultElem = document.querySelector(".result"); // object | null
-const playButton = document.querySelector(".display");
-const refreshButton = document.querySelector(".hidden");
+const playButton = document.querySelector(".display"); // object | null
+const refreshButton = document.querySelector(".hidden"); // object | null
+let faUserElem = ""; // string | null
+let faPcElem = ""; // string | null
 
 // 2. Avvio la rilevazione del click
 const checkButton = document.getElementById("gioca");
